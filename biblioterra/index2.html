@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Inicio - Biblioterra</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/biblioterra.ico">
+	<link rel="stylesheet" href="css/estilo.css" type="text/css" media="all" />
+	<!-- JS -->
+	<script src="js/jquery-1.4.1.min.js" type="text/javascript"></script>	
+	<script src="js/jquery.jcarousel.pack.js" type="text/javascript"></script>	
+	<script src="js/jquery-func.js" type="text/javascript"></script>	
+	<script>
+		function Validar(Formulario)
+		{
+			if(Formulario.txtBuscar.value.length == 0)
+			{
+				alert("No ha escrito la palabra a buscar.");
+				return false;
+			}
+			return (true);
+		}
+	</script>
+</head>
+<body>
+<div class="shell">
+	<!-- Header -->	
+	<header id="header">
+		<h1 id="logo"><a href="index.html">Biblioterra</a></h1>
+		<!-- Navigation -->
+		<nav id="navigation">
+			<ul>
+			    <li><a href="index.html" class="active">Inicio</a></li>
+			    <li><a href="productos.html">Productos</a></li>
+			    <li><a href="productos.html">Promociones</a></li>
+			    <li><a href="productos.html">Atención al Cliente</a></li>
+			    <li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- Main -->
+	<div id="main">
+		<div class="espacio">&nbsp;</div>
+		<!-- Content -->
+		<div id="content">
+		<div class="titulo">
+		<h2 align='center'>Bienvenidos a Biblioterra</h2>
+		</div>
+			<div id="slider" class="box">
+				<div id="slider-holder">
+					<ul><li><img width='724px' height='400px' src='images/canto.jpg'/></li>
+				</div>
+			</div>
+			<!-- End Content Slider -->
+	  </div>
+		<!-- End Content -->
+		
+		<!-- Sidebar
+		<sidebar id="sidebar">
+			<div class="box search">
+				<h2>Registrate:<span></span></h2>
+				<div class="box-content">
+					<form name="registro" action="registrado.html" method="post" onSubmit="return Validar(this);">
+						<label for="mail">Correo electrónico</label>
+						<input id='mail' name='mail' type="email" class="campo" />
+						<label for="usuario">Usuario</label>
+						<input id='usuario' name='usuario' type="text" class="campo" />
+						<label for="contrasena">Contraseña</label>
+						<input id='contrasena' name='contrasena' type="password" class="campo" />
+						<label for="confirmacion">Confirmar Contraseña</label>
+						<input id='confirmacion' name='confirmacion' type="password" class="campo" />
+						<div align='center'>
+						<button type="submit" class="search-submit">Registrar</button></div>
+					</form>
+				</div>
+			</div>
+			<div class="box categories">
+				<h2>Categorías <span></span></h2>
+				<div class="box-content">
+					<ol>
+						<li><a href='productos.html'><span>Literatura Contemporánea</span></a>
+						<li><a href='productos.html'><span>Literatura Clásica</span></a>
+						<li><a href='productos.html'><span>Poesía</span></a>
+					</ol>
+				</div>
+			</div>
+		</sidebar> -->
+		<div class="cl">&nbsp;</div>
+	</div>
+	<div class="side-full">
+		<div class="more-products">
+			<div class="more-products-holder">
+				<ul>
+					<li><img src='images/canto.jpg'/></li>
+					<li><img src='images/turco_espanyol.jpg'/></li>
+					<li><img src='images/frases_celebres.jpg'/></li>
+					<li><img src='images/canto.jpg'/></li>
+					<li><img src='images/canto.jpg'/></li>
+					<li><img src='images/turco_espanyol.jpg'/></li>
+					<li><img src='images/canto.jpg'/></li>
+					<li><img src='images/turco_espanyol.jpg'/></li>
+				    <li class="ultima"><a href="#"><img src="images/frases_celebres.jpg" alt="" /></a></li>
+				</ul>
+			</div>
+			<div class="more-nav">
+				<a href="#" class="prev">previous</a>
+				<a href="#" class="next">next</a>
+			</div>
+		</div>
+		<!-- Text Cols -->
+		<div class="columnas">
+			<div class="cl">&nbsp;</div>
+			<div class="col">
+				<h3 class="ico ico1">Envíos</h3>
+				<p>Enviamos libros a nivel local sin costo. Para envíos foráneos, el costo es con...</p>
+				<p class="more"><a href="envios.html" class="bul">Ver más...</a></p>
+			</div>
+			<div class="col">
+				<h3 class="ico ico2">Contáctanos</h3>
+				<p>Estamos ubicados en: 
+Av. Juan Rulfo #270 (Calle 36)
+Guadalajara, Jal., Méx.
+Tel. (33)36186187</p>
+				<p class="more"><a href="contacto.html" class="bul">Ver más...</a></p>
+			</div>
+			<div class="col">
+				<h3 class="ico ico3">Promociones</h3>
+				<p>Revisa nuestras últimas novedades que hemos estado publicando...</p>
+				<p class="more"><a href="promociones.html" class="bul">Ver más...</a></p>
+			</div>
+			<div class="col col-ultima">
+				<h3 class="ico ico4">Compras</h3>
+				<p>Si no puedes visitar nuestra tienda, 
+en este sitio podrás conocer grandes vestigios de la literatura clásica y moderna.</p>
+				<p class="more"><a href="compras.html" class="bul">Ver más...</a></p>
+			</div>
+			<div class="cl">&nbsp;</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer id="footer">
+		<p class="left">
+			<a href="https://www.facebook.com/Librer%C3%ADa-Biblioterra-446726022178384/" target="_blank"><img src="images/facebook.png" width="50" /></a>
+			<a href="https://twitter.com/BiblioterraBook" target="_blank"><img src="images/twitter.png" width="50" /></a>
+			<a href="https://plus.google.com/u/0/117670398216519779947" target="_blank"><img src="images/google+.png" width="50" /></a>
+		</p>
+		<p class="right">&copy; 2015 Biblioterra.
+			Todos los derechos reservados.
+		</p>
+	</footer>
+	<!-- End Footer -->
+	
+</div>	
+<!-- End Shell -->
+</body>
+</html>
